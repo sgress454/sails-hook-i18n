@@ -6,7 +6,7 @@ This is essentially a port of the Sails v0.12.x core i18n hook.  Sails 1.0 uses 
 
 ### Installation
 
-`npm install sails-hook-i18n`
+`npm install --save sails-hook-i18n`
 
 ### Usage
 
