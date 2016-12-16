@@ -1,0 +1,26 @@
+{
+  "name": "sails-hook-i18n",
+  "version": "0.1.3",
+  "description": "Sails JS hook to use the node-i18n module for internationalization.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/sgress454/sails-hook-panic-mode.git"
+  },
+  "author": "Scott Gress <@sgress454>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sgress454/sails-hook-i18n/issues"
+  },
+  "homepage": "https://github.com/sgress454/sails-hook-i18n",
+  "sails": {
+    "isHook": true
+  },
+  "dependencies": {
+    "@sailshq/lodash": "^3.10.2",
+    "i18n": "0.8.3"
+  }
+}
