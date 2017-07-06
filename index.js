@@ -47,7 +47,7 @@ module.exports = function(sails) {
       i18n.configure(_.defaults(sails.config.i18n, {
         cookie: null,
         directory: sails.config.appPath + sails.config.i18n.localesDirectory,
-        updateFiles: false,
+        updateFiles: sails.config.i18n.updateFiles,
         extension: '.json',
         logDebugFn: function(log){sails.log.verbose('i18n:', log);},
         logWarnFn: function(log){sails.log.warn('i18n:', log);},
@@ -56,6 +56,7 @@ module.exports = function(sails) {
 
       // Expose global access to locale strings
       sails.__ = i18n.__;
+      sails.i18n = i18n;
       // Finally
       cb();
 
