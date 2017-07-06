@@ -1,4 +1,6 @@
-# sails-hook-i18n
+# sails-hook-wide-i18n
+
+This is a fork of the [sails-hook-i18n](https://github.com/sgress454/sails-hook-i18n) hook from Scott Gress @sgress454
 
 [Sails JS](http://sailsjs.org) hook to allow internationalization using the [i18n module](http://npmjs.org/packages/i18n).
 
@@ -6,7 +8,7 @@ This is essentially a port of the Sails v0.12.x core i18n hook.  Sails 1.0 uses 
 
 ### Installation
 
-`npm install --save sails-hook-i18n`
+`npm install --save sails-hook-wide-i18n`
 
 ### Usage
 
