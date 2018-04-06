@@ -1,6 +1,6 @@
 {
   "name": "sails-hook-i18n",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Sails JS hook to use the node-i18n module for internationalization.",
   "main": "index.js",
   "scripts": {
