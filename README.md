@@ -2,7 +2,7 @@
 
 [Sails JS](http://sailsjs.org) hook to allow internationalization using the [i18n module](http://npmjs.org/packages/i18n).
 
-This is essentially a port of the Sails v0.12.x core i18n hook.  Sails 1.0 uses the more lightweight [i18n-2 module](http://npmjs.org/packages/i18n-2), so if you're missing some of the features from `i18n`, this hook's for you!
+This is essentially a port of the Sails v0.12.x core i18n hook.  Sails 1.0 uses the more lightweight [i18n-2 module](http://npmjs.org/package/i18n-2), so if you're missing some of the features from `i18n`, this hook's for you!
 
 ### Installation
 
