@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/sgress454/sails-hook-panic-mode.git"
+    "url": "git://github.com/sgress454/sails-hook-i18n.git"
   },
   "author": "Scott Gress <@sgress454>",
   "license": "MIT",
